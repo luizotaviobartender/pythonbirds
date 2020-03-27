@@ -1,8 +1,9 @@
-# cria um novo tipo de objeto chamado exemplo
-class exemplo(object):
-    pass
+class Dog(object):
+    def __init__(self, breed):
+        self.breed = breed
 
-# instanciando exemplo
-X = exemplo()
+sam= Dog(breed='lab')
+frank= Dog(breed='huskie')
 
-print(type(X))
+print(sam.breed)
+print(frank.breed)

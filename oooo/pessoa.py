@@ -1,3 +1,6 @@
+from typing import Type
+
+
 class Pessoa:
     def __init__(self,nome=None):
         self.name = nome

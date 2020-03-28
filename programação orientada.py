@@ -1,9 +1,8 @@
-class Dog(object):
-    def __init__(self, breed):
-        self.breed = breed
+class Circle(object):
+    pi =3.14
 
-sam= Dog(breed='lab')
-frank= Dog(breed='huskie')
+    def __init__(self, radius=1):
+        self.radius=radius
 
-print(sam.breed)
-print(frank.breed)
+        def area (self):
+            return self.radius * self.radius * Circle.pi
